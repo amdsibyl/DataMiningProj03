@@ -1,0 +1,5 @@
+PageRank of Graph 3: (Sorted by the PageRank value)
+	Page ID3:	0.324547068321367
+	Page ID2:	0.324547068321367
+	Page ID4:	0.175452931678633
+	Page ID1:	0.175452931678633

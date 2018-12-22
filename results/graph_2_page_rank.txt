@@ -1,0 +1,6 @@
+PageRank of Graph 2: (Sorted by the PageRank value)
+	Page ID5:	0.200000000000000
+	Page ID3:	0.200000000000000
+	Page ID2:	0.200000000000000
+	Page ID4:	0.2
+	Page ID1:	0.2
