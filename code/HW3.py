@@ -125,8 +125,8 @@ def hits(links, e=1e-4):
     while (diff_sum(authority_prev, authority) + diff_sum(hub_prev,hub)) >= e:
         authority_prev = authority
         hub_prev = hub
-        hub = normalize_dict(cal_multiply(A_dict, authority))
-        authority = normalize_dict(cal_multiply(At_dict, hub))
+        hub = normalize_dict(cal_multiply(A_dict, authority_prev))
+        authority = normalize_dict(cal_multiply(At_dict, hub_prev))
         #print(authority, hub)
     return authority, hub
 ###########################
